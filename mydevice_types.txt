@@ -1,0 +1,5 @@
+CREATE TABLE `mydevice_types` (
+  `device_type_id` int(11) NOT NULL AUTO_INCREMENT,
+  `device_type_title` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`device_type_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
